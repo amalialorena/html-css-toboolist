@@ -79,7 +79,7 @@ button.secondary {
     vertical-align: middle;
     height: 25px;
  }
- 
+
  .text {
     display: inline-block;
     vertical-align: middle;
@@ -102,7 +102,13 @@ button.secondary {
  .orange.bubble{
      background-color: rgb(236, 131, 44);
  }
+.pink.bubble {
+    background-color: orchid;
+}
 
+.green.bubble {
+    background-color: greenyellow;
+}
  .bubble {
     color:white;
     font-size: 10px; 
