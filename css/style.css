@@ -16,7 +16,6 @@ body{
 }
 
 .logo img {
-    line-height: 60px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -29,27 +28,25 @@ body{
 
 main {
     background-color: lightgray;
+    padding:30px 200px
 }
 
 .buttons_bar {
-    padding: 10px 50px;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+    padding: 10px 0;
     background-color: white;
+    padding:10px 50px;
+    border-bottom: 2px solid lightgrey;
 }
     
 .buttons_bar button{
     border-radius: 6px; 
     padding: 2px 8px;
 }
-.center_content {
-    width: 500px;
-    background-color: white;
-    border: 1px solid black
-    
+ .content {
+     background-color: white;
+ }
 
-    
-}
+
 
 
 
