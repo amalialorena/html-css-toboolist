@@ -1,28 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Roboto:wght@700&display=swap" rel="stylesheet">
-    
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
     <title>ToBoolist</title>
 </head>
+
 <body>
 
     <!-- Logo -->
@@ -34,55 +28,74 @@
         </div>
     </header>
 
-    <!-- Content -->
 
     <main>
-        
-        <div>
-            <!-- Buttons bar -->
+        <div class="container">
 
+            <!-- Buttons bar -->
+            
             <div class="buttons_bar">
-                <button class="active">Add task</button>
-                <button>Add section</button>
+                <button class="primary">Add task</button>
+                <button class="secondary">Add section</button>
             </div>
+
+            <!-- Content -->
+
             <div class="content">
+
                 <!-- Section 1 -->
-                <div class="section">
+                
+                <section>
                     <div class="title">
-                        &#9662; New Task 
+                        &#9662; New Task
                     </div>
-                    <div>
-                        Quarterly Newsletter
+                    <div class="post">
+                        <img src="img/checkmark.png" alt="checkmark">
+                        <div class="text">Quarterly Newsletter</div>
+                        <div class="blue bubble">Editorial</div>
                     </div>
-                </div>
-               
+                </section>
 
                 <!-- Section 2 -->
-                <div class="title">
-                    Today
-                </div>
-                <div>
-                    &#9662; Recruiting blog post
-                </div>
-                <div>
-                    Recruiting blog post
-                </div>
+
+                <section>
+                    <div class="title">
+                        &#9662;Today
+                    </div>
+                    <div class="post">
+                        <img src="img/checkmark.png" alt="checkmark">
+                        <div class="text">Recruiting blog post</div>
+                        <div class="blue bubble">Editorial</div>
+                    </div>
+
+                    <div class="post">
+                        <img src="img/checkmark.png" alt="checkmark">
+                        <div class="text">Mobile app launch</div>
+                        <div class="violet bubble">Q1 Goals</div>
+                    </div>
+
+                    <div class="post fail">
+                        <img src="img/fail.png" alt="fail">
+                        <div class="text">Interview John H.</div>
+                        <div class="acqua bubble">Recruiting</div>
+                    </div>
+
+                    <div class="post">
+                        <img src="img/checkmark.png" alt="checkmark">
+                        <div class="text">Summit update to mobile storefronts</div>
+                        <div class="orange bubble">Mobile</div>
+                    </div>
+                </section>
 
                 <!-- Section 3 -->
-                <div class="title">
-                    &#9662; Upcoming
-                </div>
 
+                <section>
+                    <div class="title">
+                        &#9662; Upcoming
+                    </div>
+                </section>
             </div>
-            
-
         </div>
-
-        
-
-
     </main>
-    
-    
 </body>
 </html>

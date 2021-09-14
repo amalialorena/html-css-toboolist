@@ -33,41 +33,91 @@ main {
     padding:30px 200px;
 }
 
-.buttons_bar {
+.container {
+    border-radius: 8px;
     background-color: white;
+}
+
+.buttons_bar {
     padding:10px 50px;
     border-bottom: 2px solid rgb(248, 249, 250);
+
 }
     
 .buttons_bar button{
     border-radius: 6px; 
     padding: 5px 12px;
 }
-button.active{
+
+button.primary {
     background-color: rgb(81, 151, 230);
     color: white;
-    border-color: rgb(81, 151, 230);
+    border:1px solid rgb(81, 151, 230);
 }
 
-button {
+button.secondary {
     background-color: white;
     color: lightgray;
-    border-color: lightgray;
+    border: 1px solid lightgray;
 }
  .content {
-     background-color: white;
      padding: 40px 50px;
  }
 
  .title {
-     font-size: bold;
+     font-weight: 700;
+     font-size: 20px;
+     padding-bottom: 10px;
  }
 
- .section {
-     padding-bottom: 50px;
+ section {
+     padding-bottom: 20px;
  }
 
+ .post img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 25px;
+ }
+ 
+ .text {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 100; 
+    font-size: 15px;
+ }
 
+ .blue.bubble {
+    background-color: rgb(81, 151, 230);
+ }
+
+ .violet.bubble {
+    background-color: rgb(194, 91, 241);
+    
+ }
+
+ .acqua.bubble  {
+    background-color: rgb(101, 247, 247);
+ }
+ .orange.bubble{
+     background-color: rgb(236, 131, 44);
+ }
+
+ .bubble {
+    color:white;
+    font-size: 10px; 
+    display: inline-block;
+    padding: 6px 8px;
+    border-radius: 12px;
+}
+.post{
+    padding-bottom: 15px;;
+}
+.post.fail img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+}
 
 
 
