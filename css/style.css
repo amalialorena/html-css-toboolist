@@ -24,6 +24,7 @@ body{
 .logo_name {
     display: inline-block;
     vertical-align: middle; 
+    letter-spacing: 2px;
 } 
 
 /* content  */
